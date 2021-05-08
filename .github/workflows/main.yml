@@ -36,7 +36,6 @@ jobs:
         with: 
           aws-access-key-id: ${{ secrets.AWS_ID }}
           aws-secret-access-key: ${{ secrets.AWS_PW }}
-          aws_s3_bucket: ${{ secrets.AWS_SAVE }}
           aws-region: ${{ secrets.AWS_REGION }}
 
       - name: Upload to S3
