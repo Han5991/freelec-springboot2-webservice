@@ -11,10 +11,10 @@ jobs:
     
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: logging-system-deploy-test
         
       - name: Set up JDK 1.8
-        uses: actions/setup-java@v1
+        uses: logging-system-deploy-test
         with:
           java-version: 1.8
           
